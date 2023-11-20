@@ -36,6 +36,7 @@ names = ["Dave", "Sara", "John"]
 # for x in range(2, 4):
 #     print(x)
 
-for x in range(0, 100, 5):
+for x in range(0, 101, 5): #101 to END at 100
     print(x)
-
+else:
+    print("Glad that\'s over!")
