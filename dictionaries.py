@@ -70,3 +70,8 @@ band2["drums"] = "Dave"
 print("Good copy!")
 print(band)
 print(band2)
+
+# or use the dictionary constructor function
+band3 = dict(band)
+print("Good copy!")
+print(band3)
