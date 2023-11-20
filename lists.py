@@ -82,3 +82,25 @@ print(type(nums))
 
 mylist = list([1, "Neil", True])
 print(mylist)
+
+#Tuples
+
+mytuple = tuple(("Dave", 42, True)) #tuple with constructor
+
+anothertuple = (1,4,2,8,2,2) # tuple WITHOUT constructor
+
+print(mytuple)
+print(type(mytuple))
+print(type(anothertuple))
+
+newlist = list(mytuple)
+newlist.append("Neil")
+newtuple = tuple(newlist)
+print(newtuple)
+
+(one, *two, hey) = anothertuple
+print(one)
+print(two)
+print(hey)
+
+print(anothertuple.count(2))
