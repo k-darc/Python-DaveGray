@@ -1,5 +1,4 @@
-# DaveGray: lists and tuples
-users = ["Dave", "John", "Sara"]
+users = ["Dave", "John", "Sara"] # DaveGray: lists and tuples
 
 data = ["Dave", 42, True]
 
@@ -52,5 +51,34 @@ print(users)
 data.clear()
 print(data)
 
+users[1:2] = ["dave"]
 users.sort()
 print(users)
+
+users.sort(key=str.lower)
+print(users)
+
+nums = [4,42,78,1,5]
+nums.reverse()
+print(nums)
+
+#nums.sort(reverse=True)
+#print(nums)
+
+print(sorted(nums, reverse=True))
+print(nums)
+
+numscopy = nums.copy()
+mynums = list(nums)
+mycopy = nums[:]
+
+print(numscopy)
+print(mynums)
+mycopy.sort()
+print(mycopy)
+print(nums)
+
+print(type(nums))
+
+mylist = list([1, "Neil", True])
+print(mylist)
