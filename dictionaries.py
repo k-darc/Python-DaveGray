@@ -75,3 +75,44 @@ print(band2)
 band3 = dict(band)
 print("Good copy!")
 print(band3)
+
+# Nested dictionaries
+
+member1 = {
+    "name": "Plant",
+    "instrument": "vocals"
+}
+member2 = {
+    "name": "Page",
+    "instrument": "guitar"
+}
+band = {
+    "member1": member1,
+    "member2": member2
+}
+print(band)
+print(band["member1"]["name"])
+
+# Sets
+
+nums = {1,2,3,4}
+
+nums2 = set((1,2,3,4))
+
+print(nums)
+print(nums2)
+print(type(nums))
+print(len(nums))
+
+# No duplicates allowed
+nums = {1,2,2,3}
+print(nums) # the output is a set without duplicates
+
+# True is a dupe of 1, False is a dupe of zero
+nums = {1, True, 2, False, 3, 4, 0}
+print(nums)
+
+# check if a value is in a set
+print(2 in nums)
+
+# but you cannot refer to an element in the set with an index position or a key
