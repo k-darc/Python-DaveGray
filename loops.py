@@ -40,3 +40,10 @@ for x in range(0, 101, 5): #101 to END at 100
     print(x)
 else:
     print("Glad that\'s over!")
+
+names = ["Dave", "Sara", "John"]
+actions = ["codes", "eats", "sleeps"]
+
+for name in names:
+    for action in actions:
+        print(name + " " + action + ".")
