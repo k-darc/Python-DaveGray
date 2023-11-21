@@ -11,3 +11,9 @@ print(message)
 
 message = "\n{1} has {0} coins left.".format(coins, person)
 print(message)
+
+message = "\n{person} has {coins} coins left.".format(coins=coins, person=person)
+print(message)
+
+
+
