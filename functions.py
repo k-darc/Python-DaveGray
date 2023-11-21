@@ -4,8 +4,7 @@ def hello_world():
 hello_world()
 
 def sum(num1, num2):
-    print(num1 + num2)
+    return num1 + num2
 
-sum(2,3)
-sum(1,7)
-sum(100,3)
+total = sum(2,3)
+print(total)
