@@ -33,3 +33,12 @@ print(message)
 
 message = f"\n{person.lower()} has {2 * 5} coins left."
 print(message)
+
+message = f"\n{player['person']} has {2 * 5} coins left."
+print(message)
+
+##############
+# you can pass formatting options
+
+num = 10
+print(f"\n2.25 times {num} is {2.25 * num:.2f}")
