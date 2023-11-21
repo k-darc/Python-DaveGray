@@ -5,10 +5,11 @@ def hello_world():
 hello_world()
 
 
-def sum(num1, num2):
+def sum(num1, num2=3):
     if (type(num1) is not int or type(num2) is not int):
         return
     return num1 + num2
 
-total = sum("a",3)
+
+total = sum(1)
 print(total)
