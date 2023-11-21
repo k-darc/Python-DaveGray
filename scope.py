@@ -8,6 +8,7 @@ def another():
     print(count)
 
     def greeting(name):
+        nonlocal color
         print(color)
         print(name)
 
