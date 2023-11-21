@@ -16,3 +16,12 @@ def parent_function(person):
             print("\n" + person + " is out of coins.")
 
     return play_game
+
+tommy = parent_function("Tommy")
+jenny = parent_function("Jenny")
+
+tommy()
+tommy()
+tommy()
+
+jenny()
