@@ -1,8 +1,8 @@
 # Closure is a function having access to the scope of its parent (nested) function after the parent function has returned.
 
 
-def parent_function(person):
-    coins = 3
+def parent_function(person, coins):
+    # coins = 3
 
     def play_game():
         nonlocal coins
@@ -17,11 +17,12 @@ def parent_function(person):
 
     return play_game
 
-tommy = parent_function("Tommy")
-jenny = parent_function("Jenny")
+tommy = parent_function("Tommy", 3)
+jenny = parent_function("Jenny", 5)
 
-tommy()
 tommy()
 tommy()
 
 jenny()
+
+tommy()
