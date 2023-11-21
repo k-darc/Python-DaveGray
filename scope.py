@@ -1,8 +1,15 @@
 name = "Dave"
+count = 1
 
-def greeting(name):
+def another():
     color = "blue"
-    print(color)
-    print(name)
+    count = 2
+    print(count)
 
-greeting("John")
+    def greeting(name):
+        print(color)
+        print(name)
+
+    greeting("Dave")
+
+another()
