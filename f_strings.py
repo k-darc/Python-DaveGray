@@ -27,3 +27,9 @@ print(message)
 
 message = f"\n{person} has {coins} coins left."
 print(message)
+
+message = f"\n{person} has {2 * 5} coins left."
+print(message)
+
+message = f"\n{person.lower()} has {2 * 5} coins left."
+print(message)
