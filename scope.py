@@ -3,7 +3,8 @@ count = 1
 
 def another():
     color = "blue"
-    count = 2
+    global count
+    count += 1
     print(count)
 
     def greeting(name):
