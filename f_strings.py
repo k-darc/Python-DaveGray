@@ -41,8 +41,11 @@ print(message)
 # you can pass formatting options
 
 num = 10
-print(f"\n2.25 times {num} is {2.25 * num:.2f}")
+print(f"\n2.25 times {num} is {2.25 * num:.2f}\n")
 
-for num in range(1,11):
+for num in range(1, 11):
     print(f"2.25 times {num} is {2.25 * num:.2f}")
+
+for num in range(1, 11):
+    print(f"2.25 divided by 4.52 is {num / 4.52:.2%}")
 
