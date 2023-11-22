@@ -1,8 +1,8 @@
 def hello(name, lang):
     greetings = {
-        "English": "Hello"
-        "Spanish": "Hola"
-        "German": "Hallo"
+        "English": "Hello",
+        "Spanish": "Hola",
+        "German": "Hallo",
     }
     msg = f"{greetings[lang]} {name}"
     print(msg)
@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
     parser.add_argument(
         "-l", "--lang", metavar="language",
-        required=True, choices=["English", "Spanish", "German"]
+        required=True, choices=["English", "Spanish", "German"],
         help="The language of the greeting."
     )
 
