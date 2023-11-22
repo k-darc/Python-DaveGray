@@ -32,3 +32,9 @@ squared_nums = map(lambda num : num * num, numbers)
 
 print(list(squared_nums))
 
+##########################
+# Filters
+
+odd_nums = filter(lambda num : num % 2 != 0, numbers)
+
+print(list(odd_nums))
