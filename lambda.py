@@ -22,3 +22,13 @@ addTwenty = funcBuilder(20)
 
 print(addTen(7))
 print(addTwenty(7))
+
+##########################
+# Higher Order Functions
+
+numbers = [3,7,12,18,20,21]
+
+squared_nums = map(lambda num : num * num, numbers)
+
+print(list(squared_nums))
+
