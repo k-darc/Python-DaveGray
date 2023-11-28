@@ -24,7 +24,7 @@ your_car.moves()
 
 class Airplane(Vehicle):
     def __init__ (self, make, model, faa_id):
-        super(),__init__(make, model)
+        super().__init__(make, model)
         self.faa_id = faa_id
 
 class Truck(Vehicle):
@@ -34,8 +34,7 @@ class Truck(Vehicle):
 class GolfCart(Vehicle):
     pass
 
-cessna = Airplane("Cessna","SkyHawk")
-
+cessna = Airplane("Cessna","SkyHawk","N-12345")
 mack = Truck("Mack","Pinnacle")
 golfwagon = GolfCart("Yamaha","GC100")
 
