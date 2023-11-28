@@ -1,4 +1,4 @@
 try:
     print(x)
-except:
-    print("There is an error")
+except NameError:
+    print("NameError means something is probably undefined")
