@@ -44,3 +44,9 @@ mack.get_make_model()
 mack.moves()
 golfwagon.get_make_model()
 golfwagon.moves()
+##### Polymorphism
+print("\n\n")
+
+for v in (my_car, your_car, cessna, mack, golfwagon):
+    v.get_make_model()
+    v.moves()
