@@ -23,6 +23,7 @@ class BankAccount:
                 f"\nSorry, account '{self.name}' only has a balance of ${self.balance:.2f}"
             )
 
+
     def withdraw(self, amount):
         try:
             self.viableTransaction(amount)
@@ -31,6 +32,7 @@ class BankAccount:
             self.getBalance()
         except BalanceException as error:
             print(f"\nWithdraw interrupted: {error}")
+
 
     def transfer(self, amount, account):
         try:
